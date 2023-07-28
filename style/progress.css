@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0 10px;
+  min-height: 100vh;
+  background: #283044;
+}
+
+h1 {
+  margin: 3rem 0;
+  font-size: 4rem;
+  color: #7e22ce;
+  font-weight: 700;
+  text-align: center;
+}
+
+.table-wrapper {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 75%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+/* Style table header */
+thead {
+  background-color: #f2f2f2;
+}
+
+th {
+  text-align: left;
+}
+
+/* Style table rows */
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+  background-color: #e2e2e2;
+}
